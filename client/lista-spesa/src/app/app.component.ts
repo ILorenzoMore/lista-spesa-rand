@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lista-spesa';
+  prodotti: Prodotto[] = [];
+  constructor(private http: HttpClient){}
 }
